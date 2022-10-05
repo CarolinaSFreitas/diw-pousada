@@ -1,0 +1,235 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: #f1f1f1;
+
+}
+
+header {
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+h1,
+h2 {
+    color: rgb(43, 119, 103);
+}
+
+#pousada {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.logo {
+    margin: 30px;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+nav ul {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: rgb(43, 119, 103);
+    transition-duration: 160ms;
+}
+
+#hosp {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+table td {
+    border: 1px solid rgb(123, 124, 124);
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+th {
+    text-transform: uppercase;
+    color: rgb(43, 119, 103);
+}
+
+.servs-list {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+#reservas {
+    text-align: center;
+}
+
+iframe {
+    margin-left: 130px;
+    border-radius: 6px;
+}
+
+.servs-list ul li {
+    list-style: none;
+}
+
+input {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+label,
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+input,
+select {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+input[type="submit"] {
+    background-color: rgb(43, 119, 103);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px 2px;
+    position: absolute;
+    left: 477px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(92, 170, 153);
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+    transition-duration: 380ms;
+}
+
+input:focus,
+select:focus {
+    border-bottom-color: rgb(92, 170, 153);
+}
+
+.dados {
+    margin-top: 120px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+}
+
+footer .rodape {
+    width: 100%;
+    height: 210px;
+    background: rgb(43, 119, 103);
+    padding: 20px 0px;
+}
+
+.infos-rodape {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.sobre-pousada,
+.dados-pousada,
+.footer-social {
+    color: #f1f1f1;
+    height: 100%;
+    min-height: 100px;
+}
+
+.infos-rodape h4 {
+    margin-bottom: 10px;
+}
+
+.infos-rodape h6 {
+    margin-bottom: 8px;
+}
+
+#social-icons {
+    width: 32px;
+    height: 32px;
+    margin-left: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1024px) and (max-width:576px){
+    body{
+        background-color: #949494;
+    }input[type="submit"] {
+        left: 145px; 
+    }iframe{
+        width: 95%;
+        margin:15px 10px;
+    }footer {
+        height: 100%;
+    }footer .rodape{
+        height: 100%;
+    }.infos-rodape{
+        flex-direction: column;
+
+    }#hosp th, h1, h2{
+        color:rgb(37, 88, 77);
+    }.logo{
+        display:flex;
+        justify-content:center;
+    }nav ul{
+        display: flexbox;
+        justify-content: center;
+        margin-top: 80px;
+    }h1{
+        margin-top: 85px;
+    }input{
+        border-radius: 5px;
+    }
+}
+

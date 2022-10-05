@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recanto da Natureza - Pousada</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="forest.png" type="png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da Pousada" width="98">
+        </div>
+
+        <nav>
+            <h1>Pousada Recanto da Natureza</h1>
+            <ul>
+                <li><a href="#hosp">Hospedagens</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#local">Localização</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <img src="banner.jpg" alt="Imagem da Pousada" id="pousada">
+    </header>
+
+    <h2 id="hosp">Hospedagens</h2>
+
+    <div id="hosp">
+        <table>
+            <tr>
+                <th>Quarto</th>
+                <th>Comodidades</th>
+                <th>Valor da Diária</th>
+            </tr>
+
+            <tr>
+                <td align="center">Família</td>
+                <td align="center"> SmartTV, Wi-Fi, Ar condicionado</td>
+                <td align="center">R$190,00</td>
+            </tr>
+
+            <tr>
+                <td align="center">Casal</td>
+                <td align="center">SmartTV, Wi-Fi, Ar condicionado</td>
+                <td align="center">R$120,00</td>
+            </tr>
+
+            <tr>
+                <td align="center">Individual</td>
+                <td align="center">SmartTV, Wi-Fi, Ar condicionado</td>
+                <td align="center">R$60,00</td>
+            </tr>
+        </table>
+    </div>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+
+        <div class="servs-list">
+            <ul id="servicos">
+                <li>—Piscina com água aquecida ou fria</li>
+                <li>—Passeio a cavalo</li>
+                <li>—Café da manhã</li>
+                <li>—Brinquedoteca e equipe de recreação</li>
+                <li>—SPA</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="local">
+        <h2>Localização</h2>
+        <p>Na Rua Irineu Tomazelli, próximo a Praia do Laranjal.</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.250466806031!2d-50.8791469177238!3d-29.421475160856858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95193190f85c2959%3A0x7af9b40477d390dd!2sPousada%20Recanto%20da%20Natureza!5e0!3m2!1spt-BR!2sbr!4v1664484106537!5m2!1spt-BR!2sbr"
+            width="80%" height="450" style="border:rgb(43, 119, 103) 2px solid;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <h2>Reserve sua estada</h2>
+    <section id="reservas">
+
+        <form>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo" required target="blank_">
+
+            <label for="tel">Telefone para contato:</label>
+            <input type="number" id="tel" placeholder="Digite seu telefone" required target="blank_">
+
+            <label for="email">E-mail para contato:</label>
+            <input type="email" id="email" placeholder="Digite seu E-mail" required target="blank_">
+
+            <label for="dia">Reserva para o dia:</label>
+            <input type="date" id="dia" required target="blank_">
+
+            <input type="submit" value="Confirmar sua reserva">
+        </form>
+    </section>
+
+    <section id="contato">
+
+        <div class="dados">
+            <h1>Informações de contato</h1>
+            <h4>Contate-nos através do número: (53) 1234-5678</h4>
+            <span>ou</span>
+            <h4>Nos envie um E-mail: contato@pousadarecanto.com<h4>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="rodape">
+            <div class="infos-rodape">
+                <div class="sobre-pousada">
+                    <h4>Pousada Recanto da Natureza</h4>
+                    <h6>Quem somos</h6>
+                    <h6>CNPJ 12.345.678/9101-11</h6>
+                </div>
+
+                <div class="dados-pousada">
+                    <h4>Contato</h4>
+                    <h6>(53) 1234-5678</h6>
+                    <h6>contato@pousadarecanto.com</h6>
+                    <h6>Rua Irineu Tomazelli, 310 / Pelotas-RS</h6>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Nossas Redes Sociais</h4>
+                    <img src="./insta.png" id="social-icons" alt="Instagram">
+                    <img src="./fb.png" id="social-icons" alt="Facebook">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
